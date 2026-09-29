@@ -442,9 +442,15 @@ function initHero() {
   const slides = [...document.querySelectorAll(".hero-slide")],
     dots = document.getElementById("heroDots");
   if (!slides.length) return;
-  slides.forEach((s) => {
-    s.style.backgroundImage = `url("${s.dataset.image}")`;
-  });
+  function setHeroImages() {
+    const isMobile = window.matchMedia("(max-width: 768px)").matches;
+    slides.forEach((s) => {
+      const image = isMobile && s.dataset.mobileImage ? s.dataset.mobileImage : s.dataset.image;
+      s.style.backgroundImage = `url("${image}")`;
+    });
+  }
+  setHeroImages();
+  window.addEventListener("resize", setHeroImages);
   dots.innerHTML = slides
     .map(
       (_, i) =>
