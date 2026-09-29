@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+data/db.json
+storage/uploads/*
+!storage/uploads/.gitkeep
+npm-debug.log*
+.DS_Store

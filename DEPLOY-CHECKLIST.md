@@ -1,0 +1,27 @@
+# Checklist de publicação
+
+- [ ] Abrir projeto no VS Code
+- [ ] `npm install`
+- [ ] `npm run check`
+- [ ] testar `npm start`
+- [ ] testar `/health`
+- [ ] testar `/admin`
+- [ ] criar administrador
+- [ ] conferir `.gitignore`
+- [ ] `git add .`
+- [ ] `git commit`
+- [ ] `git push`
+- [ ] configurar Node.js na Hostinger
+- [ ] configurar variáveis de ambiente
+- [ ] publicar/reiniciar aplicação
+- [ ] testar domínio
+- [ ] testar login
+- [ ] testar produto
+- [ ] testar upload de foto
+- [ ] testar upload de vídeo
+- [ ] testar carrinho
+- [ ] testar pedido
+- [ ] testar alteração do pedido no admin
+- [ ] testar WhatsApp
+- [ ] fazer backup de `data/db.json`
+- [ ] fazer backup de `storage/uploads/`

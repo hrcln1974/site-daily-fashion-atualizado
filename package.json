@@ -1,0 +1,16 @@
+{
+  "name": "daily-fashion",
+  "version": "1.2.0",
+  "private": true,
+  "description": "Daily Fashion — loja de moda feminina com catálogo, carrinho, pedidos, WhatsApp, vídeos e painel administrativo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "admin:create": "node scripts/create-admin.js",
+    "check": "node --check server.js && node --check script.js && node --check scripts/create-admin.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
