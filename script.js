@@ -172,7 +172,7 @@ function buyMessage(product) {
 
 function buyProduct(product) {
   if (!product) return;
-  openWhatsApp(buyMessage(product));
+  addToCart(product);
 }
 
 function openProductModal(product) {
