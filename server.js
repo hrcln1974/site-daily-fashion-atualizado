@@ -9,16 +9,16 @@ const defaults={business_name:'Daily Fashion',whatsapp:'5521996431650',instagram
 
 const seedProducts=[
  {name:'Vestido Essência',category:'Vestidos',price:'R$ 189,90',encomenda:'nao',prazo:'',image:'img/daily.jpg',status:'publicado',order:1},
- {name:'Conjunto Áurea',category:'Conjuntos',price:'R$ 219,90',encomenda:'nao',prazo:'',image:'img/daily (1).jpg',status:'publicado',order:2},
- {name:'Blusa Encanto',category:'Blusas',price:'R$ 99,90',encomenda:'nao',prazo:'',image:'img/daily (2).jpg',status:'publicado',order:3},
- {name:'Vestido Sob Medida',category:'Vestidos',price:'R$ 259,90',encomenda:'sim',prazo:'10 dias úteis',image:'img/daily (3).jpg',status:'publicado',order:4},
- {name:'Conjunto Bela',category:'Conjuntos',price:'R$ 229,90',encomenda:'nao',prazo:'',image:'img/daily (4).jpg',status:'publicado',order:5},
- {name:'Blusa Personalizada',category:'Blusas',price:'R$ 119,90',encomenda:'sim',prazo:'7 dias úteis',image:'img/daily (5).jpg',status:'publicado',order:6},
- {name:'Vestido Charme',category:'Vestidos',price:'R$ 199,90',encomenda:'nao',prazo:'',image:'img/daily (6).jpg',status:'publicado',order:7},
- {name:'Conjunto Sob Encomenda',category:'Conjuntos',price:'R$ 249,90',encomenda:'sim',prazo:'12 dias úteis',image:'img/daily (7).jpg',status:'publicado',order:8},
- {name:'Blusa Diária',category:'Blusas',price:'R$ 89,90',encomenda:'nao',prazo:'',image:'img/daily (8).jpg',status:'publicado',order:9},
- {name:'Vestido Exclusivo',category:'Vestidos',price:'R$ 279,90',encomenda:'sim',prazo:'10 dias úteis',image:'img/daily (9).jpg',status:'publicado',order:10},
- {name:'Conjunto Elegance',category:'Conjuntos',price:'R$ 239,90',encomenda:'nao',prazo:'',image:'img/daily (10).jpg',status:'publicado',order:11}
+ {name:'Conjunto Áurea',category:'Conjuntos',price:'R$ 219,90',encomenda:'nao',prazo:'',image:'img/daily 0.jpg',status:'publicado',order:2},
+ {name:'Blusa Encanto',category:'Blusas',price:'R$ 99,90',encomenda:'nao',prazo:'',image:'img/daily2.jpg',status:'publicado',order:3},
+ {name:'Vestido Sob Medida',category:'Vestidos',price:'R$ 259,90',encomenda:'sim',prazo:'10 dias úteis',image:'img/daily3.jpg',status:'publicado',order:4},
+ {name:'Conjunto Bela',category:'Conjuntos',price:'R$ 229,90',encomenda:'nao',prazo:'',image:'img/daily4.jpg',status:'publicado',order:5},
+ {name:'Blusa Personalizada',category:'Blusas',price:'R$ 119,90',encomenda:'sim',prazo:'7 dias úteis',image:'img/daily5.jpg',status:'publicado',order:6},
+ {name:'Vestido Charme',category:'Vestidos',price:'R$ 199,90',encomenda:'nao',prazo:'',image:'img/daily6.jpg',status:'publicado',order:7},
+ {name:'Conjunto Sob Encomenda',category:'Conjuntos',price:'R$ 249,90',encomenda:'sim',prazo:'12 dias úteis',image:'img/daily7.jpg',status:'publicado',order:8},
+ {name:'Blusa Diária',category:'Blusas',price:'R$ 89,90',encomenda:'nao',prazo:'',image:'img/daily8.jpg',status:'publicado',order:9},
+ {name:'Vestido Exclusivo',category:'Vestidos',price:'R$ 279,90',encomenda:'sim',prazo:'10 dias úteis',image:'img/daily(9.jpg',status:'publicado',order:10},
+ {name:'Conjunto Elegance',category:'Conjuntos',price:'R$ 239,90',encomenda:'nao',prazo:'',image:'img/daily10.jpg',status:'publicado',order:11}
 ];
 const seedVideos=[
  {title:'Bastidores da coleção',category:'Institucional',url:'img/video1.mp4',type:'local',caption:'Direto do ateliê da Daily Fashion',status:'publicado',order:1},

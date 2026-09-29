@@ -23,7 +23,7 @@ const FALLBACK_PRODUCTS = [
     category: "Conjuntos",
     price: "R$ 219,90",
     encomenda: "nao",
-    image: "img/daily (1).jpg",
+    image: "img/daily 0.jpg",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const FALLBACK_PRODUCTS = [
     category: "Blusas",
     price: "R$ 99,90",
     encomenda: "nao",
-    image: "img/daily (2).jpg",
+    image: "img/daily2.jpg",
   },
 ];
 const FALLBACK_VIDEOS = [
